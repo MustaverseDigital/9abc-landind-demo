@@ -102,9 +102,11 @@ img {
 }
 
 .btn-outline:hover {
-  background-color: var(--text-white);
-  color: var(--dark);
+
   transform: translateY(-3px);
+}
+.btn-outline:focus , .btn-outline:active {
+ 
 }
 
 .btn-sm {
@@ -1217,8 +1219,8 @@ img {
   .mobile-toggle {
     display: block;
     z-index: 1002;
-    width: 30px;
-    height: 25px;
+    width: 40px;
+    height: 33px;
     position: relative;
     cursor: pointer;
   }
@@ -1237,8 +1239,7 @@ img {
   }
   
   .mobile-toggle span:nth-child(2) {
-    top: 50%;
-    transform: translateY(-50%);
+    top: 10px;
   }
   
   .mobile-toggle span:nth-child(3) {
